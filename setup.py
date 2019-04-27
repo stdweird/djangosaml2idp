@@ -16,7 +16,7 @@ setup(
         open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     ]),
     install_requires=[
-        'django>=2.0',
+        'django<1.12',
         'pysaml2>=4.5.0'
         ],
     license='Apache Software License 2.0',
